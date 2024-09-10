@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Pronunciation App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Word Pronunciation App</h1>
+        <textarea id="wordInput" placeholder="Enter words separated by commas..."></textarea>
+        <div>
+            <label for="accentSelect">Select Accent:</label>
+            <select id="accentSelect">
+                <option value="en-US">American English</option>
+                <option value="en-GB">British English</option>
+            </select>
+        </div>
+        <button id="startButton">Start</button>
+        <button id="repeatButton" disabled>Repeat (0/3)</button>
+        <div id="resultSection">
+            <p id="wordToPronounce">Word to Pronounce: </p>
+        </div>
+        <div id="historySection">
+            <h2>Words Already Pronounced:</h2>
+            <ul id="historyList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
