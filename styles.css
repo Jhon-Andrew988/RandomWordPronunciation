@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#repeatButton {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#repeatButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#wordToPronounce {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+#historyList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#historyList li {
+    padding: 5px 0;
+}
+
+select {
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
